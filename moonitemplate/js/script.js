@@ -29,6 +29,8 @@ jQuery(function ($) {
         }
     });
 
+    $('select').niceSelect();
+
     //scroll to appear
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 500)
