@@ -1,3 +1,6 @@
+.fancybox-is-open .fancybox-bg {
+    opacity: 0.7;
+}
 .stake-modal {
     max-width: 600px;
     padding: 70px;
