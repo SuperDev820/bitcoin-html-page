@@ -31,6 +31,10 @@ jQuery(function ($) {
 
     $('select').niceSelect();
 
+    $(".dropdown-icon").on("click", function () {
+        $(this).parent().parent().toggleClass("open");
+    });
+
     //scroll to appear
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 500)
