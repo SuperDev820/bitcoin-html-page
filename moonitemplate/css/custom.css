@@ -119,10 +119,6 @@ margin: 0;
 .balance-section .select-div .dropdown-div .form-control:focus {
     border-color: #887c1c;
 }
-.balance-section .select-div .progress-bar {
-    border-radius: 0px;
-    background-color: #a26ee6;
-}
 .balance-section .select-div .btn-rounded {
     border-radius: 20px;
 }

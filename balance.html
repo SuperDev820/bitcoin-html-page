@@ -27,6 +27,7 @@
     <link href="moonitemplate/css/line-awesome.min.css" rel="stylesheet">
     <link href="moonitemplate/css/style.css" rel="stylesheet">
     <link href="moonitemplate/css/custom.css" rel="stylesheet">
+    <link href="moonitemplate/css/range-slider.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -156,10 +157,17 @@
                         <p class="text-white">0.0000000 ( ~$0 )</p>
                     </div> 
                     <input class="form-control font-24" id="balance" name="balance" type="number">
-                    <div class="progress" style="height:14px">
-                        <div class="progress-bar" style="width:70%;">70%</div>
+                    <div class="range-slider">
+                        <input type="range" class="px-0" min="0" max="100" step="1" value="75">
+                        <div class="datalist">
+                            <span>0%</span>
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
                     </div>
-                    <button  class="btn btn-medium btn-rounded btn-pink w-100 mt-4" style="height: 60px;line-height: 18px;">Approve</button>
+                    <button  class="btn btn-medium btn-rounded btn-pink w-100 mt-5" style="height: 60px;line-height: 18px;">Approve</button>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="d-flex justify-content-between font-22">
@@ -167,10 +175,17 @@
                         <p class="text-white">NaN ( ~$0 )</p>
                     </div> 
                     <input class="form-control font-24" id="deposit" name="deposit" type="number">
-                    <div class="progress" style="height:14px">
-                        <div class="progress-bar" style="width:0%;">0%</div>
+                    <div class="range-slider">
+                        <input type="range" class="px-0" min="0" max="100" step="1" value="75">
+                        <div class="datalist">
+                            <span>0%</span>
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
                     </div>
-                    <div class="mt-4 d-flex">
+                    <div class="mt-5 d-flex">
                         <button  class="btn btn-medium btn-rounded btn-pink w-50 disabled" style="height: 60px;line-height: 18px;margin-right: 14px;">Withdraw</button>
                         <button  class="btn btn-medium btn-rounded btn-pink w-50 disabled" style="height: 60px;line-height: 18px;">Withdraw All</button>
                     </div>
@@ -241,10 +256,17 @@
                         <p class="text-white">0.0000000 ( ~$0 )</p>
                     </div> 
                     <input class="form-control font-24" id="balance" name="balance" type="number">
-                    <div class="progress" style="height:14px">
-                        <div class="progress-bar" style="width:70%;">70%</div>
+                    <div class="range-slider">
+                        <input type="range" class="px-0" min="0" max="100" step="1" value="75">
+                        <div class="datalist">
+                            <span>0%</span>
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
                     </div>
-                    <button  class="btn btn-medium btn-rounded btn-pink w-100 mt-4" style="height: 60px;line-height: 18px;">Approve</button>
+                    <button  class="btn btn-medium btn-rounded btn-pink w-100 mt-5" style="height: 60px;line-height: 18px;">Approve</button>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="d-flex justify-content-between font-22">
@@ -252,10 +274,17 @@
                         <p class="text-white">NaN ( ~$0 )</p>
                     </div> 
                     <input class="form-control font-24" id="deposit" name="deposit" type="number">
-                    <div class="progress" style="height:14px">
-                        <div class="progress-bar" style="width:0%;">0%</div>
+                    <div class="range-slider">
+                        <input type="range" class="px-0" min="0" max="100" step="1" value="75">
+                        <div class="datalist">
+                            <span>0%</span>
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
                     </div>
-                    <div class="mt-4 d-flex">
+                    <div class="mt-5 d-flex">
                         <button  class="btn btn-medium btn-rounded btn-pink w-50 disabled" style="height: 60px;line-height: 18px;margin-right: 14px;">Withdraw</button>
                         <button  class="btn btn-medium btn-rounded btn-pink w-50 disabled" style="height: 60px;line-height: 18px;">Withdraw All</button>
                     </div>
@@ -345,5 +374,6 @@
 <!-- custom script -->
 <script src="vendor/js/contact_us.js"></script>
 <script src="moonitemplate/js/script.js"></script>
+<script src="moonitemplate/js/range-slider.js"></script>
 </body>
 </html>
