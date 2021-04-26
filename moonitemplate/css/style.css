@@ -183,9 +183,22 @@ section{padding: 7.5rem 0;}
 /* Pink button */
 .btn.btn-pink {background: #887c1c; border-color: #887c1c; color: #ffffff}
 .btn.btn-pink:hover {background: transparent !important; border-color: #887c1c; color: #887c1c !important}
+.btn.btn-pink-outline {background: transparent; border-color: #887c1c; color: #887c1c}
+.btn.btn-pink-outline:hover {background: #887c1c !important; border-color: #887c1c; color: #ffffff !important}
+/* Purple button */
+.btn.btn-purple {background: #887c1c; border-color: #887c1c; color: #ffffff}
+.btn.btn-purple:hover {background: transparent !important; border-color: #887c1c; color: #887c1c !important}
+.btn.btn-purple-outline {background: transparent; border-color: #9f64ec; color: #9f64ec}
+.btn.btn-purple-outline:hover {background: #9f64ec !important; border-color: #9f64ec; color: #ffffff !important}
 /* Transparent button */
 .btn.btn-trans {background: transparent; border-color: #ffffff; color: #ffffff}
 .btn.btn-trans:hover {background: #887c1c !important; border-color: #887c1c; color: #ffffff !important}
+/* Secondary button */
+.btn.btn-secondary {color: #fff;background-color: #282d3b;border-color: #232734;}
+.btn.btn-secondary:hover {color: #fff !important;background-color: #2d3343 !important;border-color: #282d3b;}
+/* Light button */
+.btn.btn-light {color: #f8f9fa;background-color: #9ca8b3;border-color: #9ca8b3;}
+.btn.btn-light:hover {color: #fff !important;background-color: #8695a2 !important;border-color: #7f8f9d;}
 
 /* button size */
 .btn.btn-small {font-size:12px; padding: 4px 1.8em;}
@@ -197,6 +210,8 @@ section{padding: 7.5rem 0;}
 .text-pink {color: #887c1c;}
 .text-grey {color: #797979;}
 .text-white {color: #ffffff;}
+.text-purple {color: #9f64ec;}
+.text-primary {color: #626ed4;}
 
 /* Background color */
 .bg-pink {background: #887c1c;}
@@ -212,6 +227,8 @@ section{padding: 7.5rem 0;}
 .font-20{font-size: 20px;}
 .font-22 {font-size: 22px;}
 .font-24 {font-size: 24px;}
+.font-28 {font-size: 28px;}
+.font-32 {font-size: 32px;}
 .font-40 {font-size: 40px;}
 .font-45 {font-size: 45px;}
 

@@ -25,11 +25,13 @@ margin: 0;
     background-image: url(../images/stats-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px 0px;
+    padding: 120px 0px;
 }
 .stake-section .card {
     background: #161616;
     border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
 }
 .stake-section .card .btn-rounded {
     border-radius: 20px;
@@ -38,9 +40,11 @@ margin: 0;
     padding: 10px 0;
 }
 .stake-section .card .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 36px 36px 30px 36px;
+}
+.stake-section .card .card-footer {
+    padding: 30px 36px 36px 36px;
+    border-top: 1px solid #797979;
 }
 @media (max-width: 992px) {
     .stake-section .card {
@@ -80,26 +84,21 @@ margin: 0;
 }
 .balance-section .select-div .menu-div {
     position: relative;
+    align-items: center;
 }
-.balance-section .select-div .menu-div .dropdown-icon {
-    z-index: 999;
-    cursor: pointer;
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    margin-top: -14px;
+.balance-section .select-div .menu-div .dropdown-icon div {
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
-.balance-section .select-div.open .menu-div .dropdown-icon {
+.balance-section .select-div.open .menu-div .dropdown-icon div {
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 .balance-section .select-div .dropdown-div {
-    padding: 50px 30px 10px 30px;
+    padding: 20px 50px 10px 50px;
 }
-.balance-section .select-div .dropdown-div .form-control {
+/* .balance-section .select-div .dropdown-div .form-control {
     border: none;
     border-bottom: 2px solid #797979;
     padding: 10px 0;
@@ -118,6 +117,17 @@ margin: 0;
 }
 .balance-section .select-div .dropdown-div .form-control:focus {
     border-color: #887c1c;
+} */
+.balance-section .select-div .dropdown-div .card {
+    background: #161616;
+    border-radius: 20px;
+    border: 1px solid #401677;
+}
+.balance-section .select-div .dropdown-div .card .btn-rounded {
+    border-radius: 20px;
+}
+.balance-section .select-div .dropdown-div .card .btn.btn-medium {
+    padding: 10px 0;
 }
 .balance-section .select-div .btn-rounded {
     border-radius: 20px;
