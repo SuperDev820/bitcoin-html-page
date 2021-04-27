@@ -135,3 +135,54 @@ margin: 0;
 .balance-section .select-div .btn.btn-medium {
     padding: 10px 0;
 }
+
+.modal-content {
+    border-radius: 20px;
+    background-color: #1e1e25;
+    border: 1px solid #3a3939;
+}
+.modal-content .modal-header {
+    border-bottom: 1px solid #3a3939;
+    padding: 22px 32px;
+}
+.modal-content .modal-body {
+    padding: 22px 32px;
+}
+.modal-content .modal-body .error {
+    display: none;
+}
+.modal-content .modal-body.has-error .error  {
+    display: block;
+    color: #ff57c3;
+}
+.modal-content .modal-body.has-error .invalid {
+    border: 1px solid #ff57c3;
+}
+.modal-content .modal-body .wallet-div {
+    background: #252627;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.modal-content .modal-body .wallet-div:hover {
+    background: #2d2e2f;
+  }
+.modal-content .form-control {
+    border: none;
+    width: inherit;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    background: #2b243a;
+    font-weight: normal;
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 40px;
+    color: #9181b3;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: border .9s ease;
+    -o-transition: border .9s ease;
+    transition: border .9s ease;
+}
